@@ -4,7 +4,7 @@
 
 ![Demo del proyecto](image.jpg)
 
-🔗 **Demo en vivo:** [https://tu-usuario.github.io/sephora-dashboard](https://tu-usuario.github.io/sephora-dashboard)
+🔗 **Demo en vivo:** (https://sephora.streamlit.app)
 
 ---
 
