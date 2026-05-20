@@ -17,7 +17,7 @@ st.set_page_config(
 # ======================================================
 @st.cache_data
 def load_data():
-    df = pd.read_csv("sephora_dashboard_data.csv")
+    df = pd.read_csv("sephora_dashboard_small.csv")
     df["submission_time"] = pd.to_datetime(df["submission_time"], errors="coerce")
     df["year"] = df["submission_time"].dt.year
     df["loves_count"] = pd.to_numeric(df["loves_count"], errors="coerce").fillna(0)
